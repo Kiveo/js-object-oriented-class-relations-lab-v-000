@@ -18,7 +18,11 @@ class Passenger() {
   constructor(name) {
     this.name = name;
     this.id = ++passenger.id;
-
-
+    if(user) {
+      this.driverId = driver.id;
+    }
+    setDriver(driver){
+      this.driverId = driver.id
+    }
   }
 }
