@@ -27,7 +27,7 @@ class Passenger {
     this.name = name;
     this.id = ++passengerId;
 
-    if(user) {
+    if(driver) {
       this.driverId = driver.id;
     }
 
