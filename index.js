@@ -17,7 +17,6 @@ class Driver {
       return passenger.driverId === this.id;
     })
   }
-
 } //EOC
 
 class Passenger {
@@ -34,5 +33,8 @@ class Passenger {
   setDriver(driver){
     this.driverId = driver.id
   }
+}
+
+class trips {
 
 }
