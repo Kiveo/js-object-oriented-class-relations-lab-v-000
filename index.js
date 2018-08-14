@@ -28,7 +28,7 @@ class Passenger {
 
   constructor(name) {
     this.name = name;
-    this.id = ++passenger.id;
+    this.id = ++passengerId;
 
     if(user) {
       this.driverId = driver.id;
