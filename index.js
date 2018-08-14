@@ -8,7 +8,9 @@ class Driver {
     this.id = ++driver.id;
     trips.drivers.push(this);
   }
+
   trips() {
+
   }
 
   passengers() {
