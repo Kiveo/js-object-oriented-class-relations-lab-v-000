@@ -3,7 +3,9 @@ let driver.id = 0;
 let passenger.id = 0;
 
 class Driver {
-
+  constructor(name) {
+    this.name = name;
+  }
 }
 
 class Passenger {
