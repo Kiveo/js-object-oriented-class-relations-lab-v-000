@@ -14,7 +14,7 @@ class Driver {
   }
 
   passengers() {
-    return store.passengers.filter(passenger => passenger.driverId === this.id);
+
   }
 } //EOC
 
