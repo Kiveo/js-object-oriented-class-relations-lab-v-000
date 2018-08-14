@@ -35,6 +35,10 @@ class Passenger {
   setDriver(driver){
     this.driverId = driver.id
   }
+
+  trips() {
+    return store.trips.filter(trip => trip.passengerId === this.id);
+  }
 }
 
 class Trip {
