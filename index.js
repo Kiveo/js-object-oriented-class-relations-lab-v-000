@@ -6,7 +6,7 @@ class Driver {
   constructor(name) {
     this.name = name;
     this.id = ++driver.id;
-    // trips.drivers.push(this);
+    trips.drivers.push(this);
   }
 
   trips() {
@@ -23,7 +23,7 @@ class Driver {
 
 } //EOC
 
-class Passenger() {
+class Passenger {
 
   constructor(name) {
     this.name = name;
