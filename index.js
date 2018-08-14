@@ -8,18 +8,18 @@ class Driver {
     this.id = ++driver.id;
     trips.drivers.push(this);
   }
-
-  trips() {
-    return trip.drivers.filter(driver => {
-      return driver.id === this.id;
-    })
-  }
-
-  passengers() {
-    return trip.passengers.filter(passenger => {
-      return passenger.driverId === this.id;
-    })
-  }
+  //
+  // trips() {
+  //   return trip.drivers.filter(driver => {
+  //     return driver.id === this.id;
+  //   })
+  // }
+  //
+  // passengers() {
+  //   return trip.passengers.filter(passenger => {
+  //     return passenger.driverId === this.id;
+  //   })
+  // }
 
 } //EOC
 
