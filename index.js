@@ -30,7 +30,7 @@ class Passenger {
     if(driver) {
       this.driverId = driver.id;
     }
-
+    store.passengers.push(this);
   }
 
   setDriver(driver){
