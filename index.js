@@ -1,6 +1,6 @@
-// let store = {drivers: [], passengers: []};
-// let driver.id = 0;
-// let passenger.id = 0;
+let store = {drivers: [], passengers: []};
+let driver.id = 0;
+let passenger.id = 0;
 
 class Driver {
 
