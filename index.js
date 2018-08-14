@@ -10,7 +10,9 @@ class Driver {
   }
 
   trips() {
-
+    return trip.drivers.filter(driver => {
+      return driver.id === this.id;
+    })
   }
 
   passengers() {
