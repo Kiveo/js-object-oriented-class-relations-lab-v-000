@@ -44,13 +44,13 @@ class trips {
 
     store.trips.push(this);
   }
-  //
-  // driver(){
-  //
-  // }
-  //
-  // passenger() {
-  //
-  // }
+
+  driver(){
+
+  }
+
+  passenger() {
+
+  }
 
 }
