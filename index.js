@@ -9,8 +9,14 @@ class Driver {
     trips.drivers.push(this);
   }
   trips() {
-
   }
+
+  passengers() {
+    return trip.passengers.filter(passenger => {
+      return passenger.driverId === this.id;
+    })
+  }
+
 } //EOC
 
 class Passenger() {
